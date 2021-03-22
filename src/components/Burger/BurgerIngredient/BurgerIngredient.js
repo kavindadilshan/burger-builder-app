@@ -8,7 +8,7 @@ class BurgerIngredient extends Component {
 
         switch (this.props.type) {
             case ('bread-bottom'):
-                ingredient = <div style={classes.BreadBottom}></div>;
+                ingredient = <div className={classes.BreadBottom}></div>;
                 break;
             case ('bread-top'):
                 ingredient = <div className={classes.BreadTop}>
